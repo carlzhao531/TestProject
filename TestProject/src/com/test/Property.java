@@ -8,6 +8,7 @@ public class Property {
 		System.out.println(new Date());
 		Properties p = System.getProperties();
 		p.list(System.out);
+		p.list(System.err);
 		System.out.println("Memory Usage --------------");
 		Runtime rt = Runtime.getRuntime();
 		System.out.println("Total Memory = "

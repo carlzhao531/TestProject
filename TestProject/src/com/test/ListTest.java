@@ -17,6 +17,7 @@ public class ListTest {
 		listlist.add(list2);
 		
 		list2.add("5");list2.add("6");
+		list2.add("7");list2.add("8");
 		
 		for(List<String> list : listlist) {
 			for(String s : list) {
